@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-inst..." xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web..." id="WebApp_ID" version="3.0">
+<servlet>
+	<servlet-name>AddCustomer</servlet-name>
+	<servlet-class>com.dmpcare.servlet.AddCustomer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddCustomer</servlet-name>
+	<url-pattern>/Addcus</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>Login</servlet-name>
+	<servlet-class>com.dmpcare.servlet.Login</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>Login</servlet-name>
+	<url-pattern>/cuslog</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddAppointment</servlet-name>
+	<servlet-class>com.dmpcare.servlet.AddAppointment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddAppointment</servlet-name>
+	<url-pattern>/AddApp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AppointmentTable</servlet-name>
+	<servlet-class>com.dmpcare.servlet.AppointmentTable</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AppointmentTable</servlet-name>
+	<url-pattern>/AddAppTab</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateAppointment</servlet-name>
+	<servlet-class>com.dmpcare.servlet.UpdateAppointment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateAppointment</servlet-name>
+	<url-pattern>/UpdApp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteAppointment</servlet-name>
+	<servlet-class>com.dmpcare.servlet.DeleteAppointment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteAppointment</servlet-name>
+	<url-pattern>/DelApp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddPayment</servlet-name>
+	<servlet-class>com.dmpcare.servlet.AddPayment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddPayment</servlet-name>
+	<url-pattern>/AddPay</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>PaymentTable</servlet-name>
+	<servlet-class>com.dmpcare.servlet.PaymentTable</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>PaymentTable</servlet-name>
+	<url-pattern>/PayTab</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>UpdatePayment</servlet-name>
+	<servlet-class>com.dmpcare.servlet.UpdatePayment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdatePayment</servlet-name>
+	<url-pattern>/UpdPay</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeletePayment</servlet-name>
+	<servlet-class>com.dmpcare.servlet.DeletePayment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeletePayment</servlet-name>
+	<url-pattern>/DelPay</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>RaiseTicketServlet</servlet-name>
+<servlet-class>com.healthcare.servlets.RaiseTicketServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>RaiseTicketServlet</servlet-name>
+<url-pattern>/RaiTicTab</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>TicketTable</servlet-name>
+<servlet-class>com.healthcare.servlets.TicketTable</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>TicketTable</servlet-name>
+<url-pattern>/TicTab</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>UpdateTicketServlet</servlet-name>
+<servlet-class>com.healthcare.servlets.UpdateTicketServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UpdateTicketServlet</servlet-name>
+<url-pattern>/UpdTicSer</url-pattern>
+</servlet-mapping>
+<servlet>
+<servlet-name>DeleteTicketServlet</servlet-name>
+<servlet-class>com.healthcare.servlets.DeleteTicketServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DeleteTicketServlet</servlet-name>
+<url-pattern>/DelTicSer</url-pattern>
+</servlet-mapping>
+
+</web-app>
